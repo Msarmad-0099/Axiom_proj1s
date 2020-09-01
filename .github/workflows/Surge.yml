@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: '12.17.0'
       - name: installing surge
-        uses: npm install --global surge
+        run: npm install --global surge
       - name: Exceute deployment with surge
         run: surge ./build Axiom_proj1s.surge.sh --token ${{ secrets.SURGE_ }}
                    
