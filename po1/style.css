@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 :root {
     --success-color: limegreen;
     --error-color: orangered;
@@ -26,7 +27,7 @@ body {
 
 h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -46,9 +47,10 @@ h2 {
 }
 
 .form-control input {
-    border:20px solid lightgray:
+    border:2px solid lightgray;
     border-radius: 4px;
     display: block;
+    width: 100%;
     padding: 10px;
     font-size: 10px; 
 }
@@ -59,15 +61,15 @@ h2 {
 }
 
 .form-control-success input {
-    border-color: var(--success color);
+    border-color: var(--success-color);
 }
 
 .form-control-error input{
-    border-color: var(--error color);
+    border-color: var(--error-color);
 }
 
 .form-control small {
-    color: var(--error color);
+    color: var(--error-color);
     position: absolute;
     bottom: o;
     left: o;
