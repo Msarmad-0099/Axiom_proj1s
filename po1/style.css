@@ -77,7 +77,7 @@ h2 {
 .form-control-error small {
     visibility: visible;
 }
-.form button {
+ button.home {
     cursor: pointer;
     background-color: lightskyblue;
     border: 2px solid #3725f8;
