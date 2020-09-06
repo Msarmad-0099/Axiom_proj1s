@@ -10,7 +10,7 @@
 
 body {
     background-color: hsla(0, 0, 50%, 0.1%);
-    font-family: "Open-Sans",sans-serif;
+    font-family: "Open Sans",sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,11 +60,11 @@ h2 {
     border-color: gray;
 }
 
-.form-control-success input {
+.form-control.success input {
     border-color: var(--success-color);
 }
 
-.form-control-error input {
+.form-control.error input {
     border-color: var(--error-color);
 }
 
@@ -92,6 +92,21 @@ h2 {
     width: 100;
 }
 
+button.home {
+    cursor: pointer;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
 .nav {
     display: block;
 }
