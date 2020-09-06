@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: hsla(0, 0, 50%, 0.1%);
+    background-color: hsla(0, 0%, 50%, 0.1);
     font-family: "Open Sans",sans-serif;
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .form-control input:focus {
-    outline: 0ch;
+    outline: 0;
     border-color: gray;
 }
 
@@ -72,7 +72,7 @@ h2 {
     color: var(--error-color);
     position: absolute;
     bottom: 0;
-    left: 0ch;
+    left: 0;
     visibility: hidden;
 }
 
@@ -89,7 +89,7 @@ h2 {
     display: block;
     font-size: 16px;
     padding: 10px;
-    width: 100;
+    width: 100%;
 }
 
 button.home {
