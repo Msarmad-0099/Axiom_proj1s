@@ -4,38 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Html form validation</title>
+    <title>HTML Form Validation</title>
 </head>
 <body>
-    <div class="continer">
+    <div class="container">
         <form id="form" class="form">
-            <h2>Sign up</h2>
+            <h2>Sign Up</h2>
             <div class="form-control">
-                <label for="Username">Username</label>
-                <input type="text" id="Username" placeholder="Enter Username">
-                <small>Error Massage</small>
-            </div>
-            <div class="form-control">
-                <label for="Email">Email</label>
-                <input type="text" id="Email" placeholder="Enter Email">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
                 <small>Error Message</small>
             </div>
             <div class="form-control">
-                <label for="Password">Password</label>
-                <input type="password" id="Password" placeholder="Enter Password">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
                 <small>Error Message</small>
             </div>
             <div class="form-control">
-                <label for="Password2">Password2</label>
-                <input type="password" id="Password2" placeholder="Enter Password2">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Enter password again">
                 <small>Error Message</small>
             </div>
             <button>Submit</button>
         </form>
+
+        <a href="../index.html">
+            <button class="home">Home</button>
+        </a>
+
     </div>
-    <a href="../index.html">
-        <button>Home</button>
-    </a>
     <script src="script.js"></script>
 </body>
 </html>
