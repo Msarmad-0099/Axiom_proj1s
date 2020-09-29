@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Currency Exchange</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="./IMG/Money-png.png" alt="Money-img" class="MoneyIcon">
+    <img src="./IMG/Money-png.png" alt="Money Icon" class="money-img">
     <h1>Currency Exchange</h1>
     <p>Please choose your currency, the amount of the currency to convert, and the target currency.</p>
-    <div class="Container">
-        <div class="Currency">
-            <select id="Currency-two">
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
                 <option value='AED'>AED - United Arab Emirates</option>
                 <option value='ARS'>ARS - Argentina</option>
                 <option value='AUD'>AUD - Australia</option>
@@ -86,8 +86,9 @@
             </select>
             <input type="number" id="amount-one" placeholder="0" value="1">
         </div>
-        <div class="Currency">
-            <select id="Currency-two">
+
+        <div class="currency">
+            <select id="currency-two">
                 <option value='AED'>AED - United Arab Emirates</option>
                 <option value='ARS'>ARS - Argentina</option>
                 <option value='AUD'>AUD - Australia</option>
@@ -143,7 +144,7 @@
                 <option value='PAB'>PAB - Panama</option>
                 <option value='PEN'>PEN - Peru</option>
                 <option value='PHP'>PHP - Philippines</option>
-                <option value='PKR'selected>PKR - Pakistan</option>
+                <option value='PKR' selected>PKR - Pakistan</option>
                 <option value='PLN'>PLN - Poland</option>
                 <option value='PYG'>PYG - Paraguay</option>
                 <option value='RON'>RON - Romania</option>
@@ -159,14 +160,18 @@
                 <option value='UYU'>UYU - Uruguay</option>
                 <option value='ZAR'>ZAR - South Africa</option>
             </select>
-            <input type="number" id="amount-one" placeholder="0" value="0">
+            <input type="number" id="amount-two" placeholder="0">
         </div>
-        <div class="flip-continer">
-            <Button class="btn" id="btn">
-                flip
-            </Button>
+        
+        <div class="flip-container">
+            <button class="btn" id="flip">
+                Flip
+            </button>
             <div class="rate" id="rate"></div>
         </div>
-    </div> 
+
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
