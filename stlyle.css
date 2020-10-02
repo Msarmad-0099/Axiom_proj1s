@@ -17,14 +17,17 @@ body {
  h1 {
      color: var(--primary-color);
      text-align: center;
+     display: block;
  }
  p {
      color: white;
      text-align: center;
+     display: block;
  }
  h2 {
      color: var(--primary-color);
      text-align: center;
+     display: block;
  }
  ol {
      color: white;
