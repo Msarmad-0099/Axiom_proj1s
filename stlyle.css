@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 100px;
-    max-width: 100%;
+    width:100%;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
