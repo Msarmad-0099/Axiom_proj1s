@@ -1,16 +1,13 @@
 :root {
     --primary-color:yellow;
 }
-
-* {
-    box-sizing: border-box;
-}
 body { 
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     padding: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
