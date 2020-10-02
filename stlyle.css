@@ -8,18 +8,23 @@
 body {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    width: 100%;
+    
 }
  h1 {
      color: var(--primary-color);
+     text-align: center;
  }
  p {
      color: white;
      font-size: 16px;
+     text-align: center;
  }
  h2 {
      color: var(--primary-color);
+     text-align: center;
  }
  ol {
      color: white;
-     font-size: 16px;
  }
