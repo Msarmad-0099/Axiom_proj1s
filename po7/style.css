@@ -25,7 +25,7 @@ h1 {
     height: 350px;
 }
 
-.wrong-letters {
+.wrong-letter {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -34,11 +34,11 @@ h1 {
     text-align: right;
 }
 
-.wrong-letters p {
+.wrong-letter p {
     margin: 0 0 5px;
 }
 
-.wrong-letters span {
+.wrong-letter span {
     font-size: 24px;
 }
 
@@ -50,7 +50,7 @@ h1 {
     transform: translateX(-50%);
 }
 
-.letters {
+.letter {
     border-bottom: 3px solid skyblue;
     display: inline-flex;
     font-size: 36px;
@@ -68,7 +68,7 @@ h1 {
     fill: transparent;
 }
 
-.hangman-part {
+.hangman-parts {
     display: none;
 }
 
